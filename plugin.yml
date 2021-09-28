@@ -1,0 +1,16 @@
+name: SkyBlockMenu
+main: HydraNetwork\SkyBlockMenu\Main
+api:
+  3.0.0
+version: 1.0
+author:
+  SkeepyOFficial
+
+commands:
+  is:
+    description: "Open SkyBlock Menu"
+    aliases:
+      - menu
+      - isle
+      - island
+      - islandui
