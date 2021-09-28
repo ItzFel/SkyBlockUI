@@ -156,7 +156,7 @@ class Main extends PluginBase implements Listener
             }
         });
         $form->setTitle("Manage Players");
-        $form->setContent("§cWARNING: §7If you want to invite your friends, your friends must not have an island first and after you have invited your friends tell your friends to type §f/sb accept.");
+        $form->setContent("§eTIPS: §7If you want to invite your friends, your friends must not have an island first and after you have invited your friends tell your friends to type §f/sb accept.");
         $form->addButton("§8Invite a Player\n§7Click to select!");
         $form->addButton("§8Kick a Player\n§7Click to select!");
         $form->addButton("§8Leave an Island\n§7Click to select!");
