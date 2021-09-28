@@ -1,10 +1,8 @@
-name: SkyBlockMenu
+name: SkyBlockUI
 main: HydraNetwork\SkyBlockMenu\Main
-api:
-  3.0.0
+api: 3.0.0
 version: 1.0
-author:
-  SkeepyOFficial
+author: SkeepyOfficial
 
 commands:
   is:
