@@ -120,13 +120,13 @@ class Main extends PluginBase implements Listener
         });
         $form->setTitle("Skyblock");
         $form->setContent("Quick access to Skyblock commands");
-        $form->addButton("§8Go to Island\n§7Click to select!");
-        $form->addButton("§8Lock/Unlock Island\n§7Click to select!");
-        $form->addButton("§8Setspawn Island\n§7Click to select!");
-        $form->addButton("§8Transfer your Island\n§7Click to select!");
-        $form->addButton("§8Delete your Island\n§7Click to select!");
-        $form->addButton("§8Visit Island Public\n§7Click to select!");
-        $form->addButton("§8Manage Players\n§7Click to select!");
+        $form->addButton("§8Go to Island\n§7§oClick to select!");
+        $form->addButton("§8Lock/Unlock Island\n§7§oClick to select!");
+        $form->addButton("§8Setspawn Island\n§7§oClick to select!");
+        $form->addButton("§8Transfer your Island\n§7§oClick to select!");
+        $form->addButton("§8Delete your Island\n§7§oClick to select!");
+        $form->addButton("§8Visit Island Public\n§7§oClick to select!");
+        $form->addButton("§8Manage Players\n§7§oClick to select!");
         $form->sendToPlayer($sender);
         return $form;
     }
@@ -157,11 +157,11 @@ class Main extends PluginBase implements Listener
         });
         $form->setTitle("Manage Players");
         $form->setContent("§eTIPS: §7If you want to invite your friends, your friends must not have an island first and after you have invited your friends tell your friends to type §f/sb accept.");
-        $form->addButton("§8Invite a Player\n§7Click to select!");
-        $form->addButton("§8Kick a Player\n§7Click to select!");
-        $form->addButton("§8Leave an Island\n§7Click to select!");
-        $form->addButton("§8Cooperate with a Player\n§7Click to select!");
-        $form->addButton("§8Back\n§7Click to select!");
+        $form->addButton("§8Invite a Player\n§7§oClick to select!");
+        $form->addButton("§8Kick a Player\n§7§oClick to select!");
+        $form->addButton("§8Leave an Island\n§7§oClick to select!");
+        $form->addButton("§8Cooperate with a Player\n§7§oClick to select!");
+        $form->addButton("§8Back\n§7§oClick to select!");
         $form->sendToPlayer($sender);
         return $form;
     }
@@ -267,8 +267,8 @@ class Main extends PluginBase implements Listener
             }
         });
         $form->setTitle("Are You Sure?");
-        $form->addButton("§8Yes!\n§7Click to select!");
-        $form->addButton("§8No!\n§7Click to select!");
+        $form->addButton("§8Yes!\n§7§oClick to select!");
+        $form->addButton("§8No!\n§7§oClick to select!");
         $form->sendToPlayer($sender);
         return $form;
     }
