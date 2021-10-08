@@ -96,7 +96,7 @@ class Main extends PluginBase implements Listener
             switch ($data){
                 case 0:
                     $session->getPlayer()->teleport($session->getIsland()->getLevel()->getSpawnLocation());
-                    $sender->sendMessage(TextFormat::YELLOW . "Welcome to Your island");
+                    $sender->sendMessage("§l§8(§dSB§8)§r §7Welcome to Your island!");
                     break;
                 case 1:
                     $this->getServer()->dispatchCommand($sender, "sb lock");
